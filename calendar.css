@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    color: rgb(93, 121, 121);
+}
+
+#dayNames{
+    border-bottom: 2px solid black;
+}
+
+.week{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.day{
+    border-left: 1px solid gray;
+    min-width: 105px;
+    min-height: 80px;
+}
+
+.current{
+    background-color:#0e1213;
+    color: whitesmoke;
+}
+
+.today{
+    background-color: #1c2723;
+}
+
+.non-current{
+    background-color: black;
+    color: darkgrey;
+}
+
+#calendar{
+    min-width: 850px;
+}
+
+#signin-form{
+    list-style-type: none;
+    float: left;
+}
+
+li{
+    display: inline-block;
+}
+
+#signup-form{
+   display: none;
+}
+
+#logout-form{
+    display: none;
+ }
+
+.view-events, .add-event{
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.btn-primary, .btn-secondary{
+    background-color:#101414;
+}
+
+.btn-secondary{
+    background-color: #1f2627;
+}
+
+input{
+    background-color: #242e30;
+    color: #849a9e;
+}
+
+.white{
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.violet{
+    background-color: violet;
+}
+
+.event-times{
+    width: 200px;
+}
+
+.event{
+    border-color: rgb(93, 121, 121);
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: outset;
+    padding: 25px;
+}
